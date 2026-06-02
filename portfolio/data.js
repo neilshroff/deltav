@@ -20,9 +20,9 @@ window.DELTAV = {
     { n: "03", name: "BLINQ MOBILITY", loc: "GURUGRAM",        sector: "MOBILITY",      motif: "blinq",    url: "https://blinqmobility.com" },
     { n: "04", name: "ARMATRIX",       loc: "INDIA",           sector: "ROBOTICS",      motif: "armatrix", url: "https://armatrix.in" },
     { n: "05", name: "PLUTO MOBILITY", loc: "DELHI",           sector: "MOBILITY",      motif: "pluto",    url: "https://plutomobility.in" },
-    { n: "06", name: "DODO PAYMENTS",  loc: "GLOBAL",          sector: "FINTECH",       motif: "flow",     url: "https://dodopayments.com" },
-    { n: "07", name: "DIRAC LABS",     loc: "BENGALURU / US",  sector: "SENSING",       motif: "dirac",    url: "https://diraclabs.com" },
-    { n: "08", name: "LAGANN ROBOTICS",loc: "UNDISCLOSED",     sector: "ROBOTICS",      motif: "gantry" },
+    { n: "06", name: "DIRAC LABS",     loc: "BENGALURU / US",  sector: "SENSING",       motif: "dirac",    url: "https://diraclabs.com" },
+    { n: "07", name: "LAGANN ROBOTICS",loc: "UNDISCLOSED",     sector: "ROBOTICS",      motif: "gantry" },
+    { n: "08", name: "DODO PAYMENTS",  loc: "GLOBAL",          sector: "FINTECH",       motif: "flow",     url: "https://dodopayments.com" },
     { n: "09", name: "[ IN STEALTH ]", loc: "UNDISCLOSED",     sector: "AEROSPACE",     motif: "rotor",    stealth: true }
   ]
 };
