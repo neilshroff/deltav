@@ -17,7 +17,7 @@ window.DELTAV = {
   companies: [
     { n: "01", name: "KUBOCARE",       loc: "BENGALURU",       sector: "CARE SENSING",  motif: "kubo",     url: "https://kubocare.com" },
     { n: "02", name: "NEOCAMBRIAN AI", loc: "NEW DELHI",       sector: "PHYSICAL AI",   motif: "lattice",  url: "https://neocambrian.ai" },
-    { n: "03", name: "BLINQ MOBILITY", loc: "GURUGRAM",        sector: "MOBILITY",      motif: "blinq",    url: "https://blinqmobility.com" },
+    { n: "03", name: "BLINQ MOBILITY", loc: "GURGAON",         sector: "MOBILITY",      motif: "blinq",    url: "https://blinqmobility.com" },
     { n: "04", name: "ARMATRIX",       loc: "BENGALURU",       sector: "ROBOTICS",      motif: "armatrix", url: "https://armatrix.in" },
     { n: "05", name: "PLUTO MOBILITY", loc: "DELHI",           sector: "MOBILITY",      motif: "pluto",    url: "https://plutomobility.in" },
     { n: "06", name: "DIRAC LABS",     loc: "BENGALURU / US",  sector: "SENSING",       motif: "dirac",    url: "https://diraclabs.com" },
