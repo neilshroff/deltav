@@ -15,14 +15,14 @@ window.DELTAV = {
   // url = external site each card links to (opens in a new tab). EDIT THESE
   // to the exact links you want; the stealth card intentionally has none.
   companies: [
-    { n: "01", name: "KUBOCARE",       loc: "BENGALURU",       sector: "CARE SENSING",  motif: "kubo",     url: "https://kubocare.com" },
-    { n: "02", name: "NEOCAMBRIAN AI", loc: "NEW DELHI",       sector: "PHYSICAL AI",   motif: "lattice",  url: "https://neocambrian.ai" },
-    { n: "03", name: "BLINQ MOBILITY", loc: "GURGAON",         sector: "MOBILITY",      motif: "blinq",    url: "https://blinqmobility.com" },
-    { n: "04", name: "ARMATRIX",       loc: "BENGALURU",       sector: "ROBOTICS",      motif: "armatrix", url: "https://armatrix.in" },
-    { n: "05", name: "PLUTO MOBILITY", loc: "DELHI",           sector: "MOBILITY",      motif: "pluto",    url: "https://plutomobility.in" },
-    { n: "06", name: "DIRAC LABS",     loc: "BENGALURU / US",  sector: "SENSING",       motif: "dirac",    url: "https://diraclabs.com" },
-    { n: "07", name: "LAGANN ROBOTICS",loc: "BANGKOK, THAILAND",sector: "ROBOTICS",      motif: "gantry" },
-    { n: "08", name: "DODO PAYMENTS",  loc: "BENGALURU",       sector: "FINTECH",       motif: "flow",     url: "https://dodopayments.com" },
+    { n: "01", name: "KUBOCARE",       loc: "SAN FRANCISCO, CA", sector: "CARE SENSING",  motif: "kubo",     url: "https://kubocare.com" },
+    { n: "02", name: "NEOCAMBRIAN AI", loc: "NEW DELHI, IN",     sector: "PHYSICAL AI",   motif: "lattice",  url: "https://neocambrian.ai" },
+    { n: "03", name: "BLINQ MOBILITY", loc: "GURGAON, IN",       sector: "MOBILITY",      motif: "blinq",    url: "https://blinqmobility.com" },
+    { n: "04", name: "ARMATRIX",       loc: "BENGALURU, IN",     sector: "ROBOTICS",      motif: "armatrix", url: "https://armatrix.in" },
+    { n: "05", name: "PLUTO MOBILITY", loc: "NEW DELHI, IN",     sector: "MOBILITY",      motif: "pluto",    url: "https://plutomobility.in" },
+    { n: "06", name: "DIRAC LABS",     loc: "BENGALURU, IN",     sector: "SENSING",       motif: "dirac",    url: "https://diraclabs.com" },
+    { n: "07", name: "LAGANN ROBOTICS",loc: "BANGKOK, TH",       sector: "ROBOTICS",      motif: "gantry" },
+    { n: "08", name: "DODO PAYMENTS",  loc: "BENGALURU, IN",     sector: "FINTECH",       motif: "flow",     url: "https://dodopayments.com" },
     { n: "09", name: "[ IN STEALTH ]", loc: "UNDISCLOSED",     sector: "AEROSPACE",     motif: "rotor",    stealth: true }
   ]
 };
