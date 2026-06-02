@@ -1,17 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      background: #ffffff;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Delta V — India's frontier-tech outliers</title>
+<meta name="description" content="Delta V is a pre-seed & seed fund investing in India's frontier-tech outliers — cheap drones, dense batteries, novel metallurgy, and industrial robots." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="portfolio/styles.css" />
 </head>
-<body></body>
+<body>
+<template id="__bundler_thumbnail" data-bg-color="#0a0e15">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#0a0e15"/>
+    <text x="80" y="150" font-family="Geist, Helvetica, sans-serif" font-size="64" font-weight="600" fill="#eef2f8">Delta V<tspan font-size="26" dy="-26" fill="#6c7689">©</tspan></text>
+    <g stroke="#cdddfb" stroke-width="3" fill="none" opacity="0.9" filter="url(#g)">
+      <g transform="translate(600 460)">
+        <ellipse cx="0" cy="0" rx="120" ry="46"/>
+        <ellipse cx="0" cy="0" rx="46" ry="120"/>
+        <circle cx="0" cy="0" r="120"/>
+        <circle cx="0" cy="0" r="8" fill="#fff" stroke="none"/>
+      </g>
+    </g>
+    <defs>
+      <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="6" result="b"/>
+        <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+  </svg>
+</template>
+<div id="root"></div>
+
+<footer class="site-footer" data-screen-label="Footer">
+  <div class="footer-bar">
+    <div class="fb-left">
+      <span class="wordmark">Delta&nbsp;V<sup>©</sup></span>
+      <span class="fb-tag">By operators, for operators.</span>
+    </div>
+    <div class="fb-right">
+      <span class="fb-people">
+        <span class="fb-person">
+          <a class="nm" href="https://raymondrussell.io/" target="_blank" rel="noopener">Raymond Russell</a>
+          <a class="fb-x" href="https://x.com/raymondopolis" target="_blank" rel="noopener" aria-label="Raymond Russell on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+        </span>
+        <span class="fb-dot">•</span>
+        <span class="fb-person">
+          <a class="nm" href="https://neilshroff.xyz" target="_blank" rel="noopener">Neil Shroff</a>
+          <!-- TODO: confirm X handle -->
+          <a class="fb-x" href="https://x.com/neilshroff" target="_blank" rel="noopener" aria-label="Neil Shroff on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+        </span>
+      </span>
+      <a class="fb-contact" href="mailto:founders@deltav.fund">Contact us</a>
+      <span class="fb-loc">BLR / SF</span>
+    </div>
+  </div>
+  <div class="fb-meta">© 2026 Delta V Fund I&nbsp;&nbsp;·&nbsp;&nbsp;Δv = change in velocity</div>
+</footer>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="portfolio/image-slot.js"></script>
+<script src="portfolio/data.js"></script>
+<script type="text/babel" src="portfolio/tweaks-panel.jsx"></script>
+<script type="text/babel" src="portfolio/motifs.jsx"></script>
+<script type="text/babel" src="portfolio/cells.jsx"></script>
+<script type="text/babel" src="portfolio/hero.jsx"></script>
+<script type="text/babel" src="portfolio/app.jsx"></script>
+</body>
 </html>
