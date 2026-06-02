@@ -16,13 +16,13 @@ window.DELTAV = {
   // to the exact links you want; the stealth card intentionally has none.
   companies: [
     { n: "01", name: "KUBOCARE",       loc: "BENGALURU",       sector: "CARE SENSING",  motif: "kubo",     url: "https://kubocare.com" },
-    { n: "02", name: "NEOCAMBRIAN",    loc: "DELHI",           sector: "PHYSICAL AI",   motif: "lattice",  url: "https://neocambrian.ai" },
+    { n: "02", name: "NEOCAMBRIAN AI", loc: "NEW DELHI",       sector: "PHYSICAL AI",   motif: "lattice",  url: "https://neocambrian.ai" },
     { n: "03", name: "BLINQ MOBILITY", loc: "GURUGRAM",        sector: "MOBILITY",      motif: "blinq",    url: "https://blinqmobility.com" },
-    { n: "04", name: "ARMATRIX",       loc: "INDIA",           sector: "ROBOTICS",      motif: "armatrix", url: "https://armatrix.in" },
+    { n: "04", name: "ARMATRIX",       loc: "BENGALURU",       sector: "ROBOTICS",      motif: "armatrix", url: "https://armatrix.in" },
     { n: "05", name: "PLUTO MOBILITY", loc: "DELHI",           sector: "MOBILITY",      motif: "pluto",    url: "https://plutomobility.in" },
     { n: "06", name: "DIRAC LABS",     loc: "BENGALURU / US",  sector: "SENSING",       motif: "dirac",    url: "https://diraclabs.com" },
-    { n: "07", name: "LAGANN ROBOTICS",loc: "UNDISCLOSED",     sector: "ROBOTICS",      motif: "gantry" },
-    { n: "08", name: "DODO PAYMENTS",  loc: "GLOBAL",          sector: "FINTECH",       motif: "flow",     url: "https://dodopayments.com" },
+    { n: "07", name: "LAGANN ROBOTICS",loc: "BANGKOK, THAILAND",sector: "ROBOTICS",      motif: "gantry" },
+    { n: "08", name: "DODO PAYMENTS",  loc: "BENGALURU",       sector: "FINTECH",       motif: "flow",     url: "https://dodopayments.com" },
     { n: "09", name: "[ IN STEALTH ]", loc: "UNDISCLOSED",     sector: "AEROSPACE",     motif: "rotor",    stealth: true }
   ]
 };

@@ -118,7 +118,7 @@ function LatticeMotif() {
     return () => cancelAnimationFrame(raf);
   }, []);
   return (
-    <g className="motif-ink" fill="none">
+    <g className="motif-ink" fill="none" transform="translate(-12 16)">
       {/* work surface + two pads */}
       <line x1="92" y1="134" x2="228" y2="134" className="ln faint" />
       <line x1="103" y1="134" x2="123" y2="134" className="ln" />
