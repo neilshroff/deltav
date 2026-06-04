@@ -11,7 +11,7 @@ function Hero({ b }) {
       </div>
 
       <div className="hero-top">
-        <div className="wordmark">{b.name}<sup>©</sup></div>
+        <div className="wordmark">{b.name}</div>
       </div>
 
       <div className="hero-mid">
